@@ -547,6 +547,28 @@ html, body {
     line-height: 0.8;
 }
 
+#contact a {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#contact a:hover {
+    color: #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+#contact a:visited {
+    color: #6c757d;
+}
+
+
 .section-form {
     padding-bottom: 120px;
 }
